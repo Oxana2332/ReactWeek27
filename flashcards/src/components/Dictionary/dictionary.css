@@ -1,0 +1,21 @@
+.dictionary {
+    margin: auto;
+    padding: 0.5%;
+}
+
+.dictionary_title {
+    text-align: center;
+    width: 15%;
+    background-color: var(--basicDark);
+    color: var(--font);
+    font-family: var(--basicFont);
+    border-color: rgba(0, 0, 0, 0.355);
+}
+
+.dictionary_button {
+    width: 30%;
+    background-color: var(--basicDark);
+    border-color: rgba(0, 0, 0, 0.355);
+    color: #00000000;
+    font-family: var(--basicFont);
+}

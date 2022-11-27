@@ -1,0 +1,60 @@
+.word {
+    border-color: rgba(0, 0, 0, 0.355);
+    text-align: center;
+    width: 15%;
+    font-family: var(--basicFont);
+}
+
+.button {
+    width: 14%;
+    border-color: rgba(0, 0, 0, 0);
+    border-radius: 5px;
+    font-family: var(--basicFont);
+}
+
+.left {
+    background-color: var(--buttonGreen);
+    color: var(--font);
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.right {
+    background-color: var(--buttonRed);
+    color: var(--font);
+}
+
+
+.button:hover {
+    transform: scale(1);
+    box-shadow: 0 0 5px 5px rgba(34, 60, 80, 0.2);
+    transition: box-shadow 0.5s, transform 0.5s;
+    color: black;
+}
+
+.left:focus {
+    background-color: var(--focusButtonGreen);
+}
+
+.right:focus {
+    background-color: var(--focusButtonRed);
+}
+
+.button:active {
+    box-shadow: var(--shadowActive);
+}
+
+.word:hover {
+    transform: scale(1);
+    box-shadow: 0 0 5px 5px rgba(34, 60, 80, 0.2);
+    transition: box-shadow 0.5s, transform 0.5s;
+    color: black;
+}
+
+.word:focus {
+    background-color: var(--focusWodr);
+}
+
+.word:active {
+    box-shadow: var(--shadowActive);
+}

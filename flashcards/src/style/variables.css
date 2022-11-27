@@ -1,0 +1,24 @@
+:root {
+    /* colors */
+
+    --buttonRed: #931f1d;
+    --focusButtonRed: #931f1db9;
+    --buttonGreen: #73b01d;
+    --focusButtonGreen: #73b01db9;
+    --basicLight: #e3c06f6e;
+    --focusBasicLight: #e3c06f;
+    --focusWodr: aliceblue;
+    --basicDark: #000000ba;
+    --headerFooter: rgba(125, 186, 246, 0.838);
+    --font: #ffffff;
+    --shadowActive: 10px 10px 10px 2px rgba(34, 60, 80, 0.2) inset,
+    10px 10px 10px 2px rgba(34, 60, 80, 0.2);
+
+    /* fonts */
+    --basicFont: 'El Messiri', sans-serif;
+    --designFont: 'Square Peg', cursive;
+    
+    /* sizes */
+    --fontTitle: 2.4em;
+    --fontText: 1.3em;
+}

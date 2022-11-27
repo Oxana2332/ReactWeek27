@@ -1,0 +1,38 @@
+.card {
+    background-color: var(--basicLight);
+    margin: 7% auto;
+    width: 30vw;
+    height: 40vh;
+    border-radius: 20px;
+}
+
+.card_title {
+    padding: 3%;
+    font-family: var(--basicFont);
+    font-size: var(--fontTitle);
+}
+
+.card_text {
+    padding: 4%;
+    font-size: var(--fontText);
+    font-family: var(--basicFont);
+}
+
+.card_button {
+    width: 40%;
+    height: 15%;
+    border-color: rgba(0, 0, 0, 0);
+    border-radius: 5px;
+    font-family: var(--basicFont);
+}
+
+.card_button:hover {
+    transform: scale(1);
+    box-shadow: 0 0 5px 5px rgba(34, 60, 80, 0.2);
+    transition: box-shadow 0.5s, transform 0.5s;
+    color: black;
+}
+
+.card_button:active {
+    box-shadow: var(--shadowActive);
+}
